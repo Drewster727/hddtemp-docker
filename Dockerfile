@@ -6,7 +6,7 @@
 FROM ubuntu
 
 # Install hddtemp
-RUN apt-get install build-essential hddtemp
+RUN apt-get -y install build-essential hddtemp
 
 # Define working directory.
 WORKDIR /hddtemp
