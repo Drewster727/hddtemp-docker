@@ -12,4 +12,5 @@ RUN apt-get install build-essential hddtemp
 WORKDIR /hddtemp
 
 # Define default command.
-# CMD hddtemp -?
+# example = -d --listen localhost --port 7634 /dev/s*
+CMD hddtemp $HDDTEMP_ARGS
