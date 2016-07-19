@@ -8,10 +8,10 @@
 FROM ubuntu
 
 # Install hddtemp
-RUN apt-get install hddtemp
+RUN apt-get build-essential install hddtemp
 
 # Define working directory.
 WORKDIR /hddtemp
 
 # Define default command.
-CMD python -m glances $GLANCES_OPT
+# CMD hddtemp -?
