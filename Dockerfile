@@ -1,8 +1,6 @@
 #
 # hddtemp Dockerfile
 #
-# https://github.com/nicolargo/glances
-#
 
 # Pull base image.
 FROM ubuntu
