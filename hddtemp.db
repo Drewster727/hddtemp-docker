@@ -272,6 +272,9 @@
 #"SAMSUNG SV1204H"					194  C	"Samsung 120G"
 "SAMSUNG SV(0401|0802|1203|1604)N"			194  C	"Samsung SpinPoint V80 serie"
 "SAMSUNG SV4012H"					194  C	"Samsung 40GB, 5400RPM, 2MB cache"
+"SAMSUNG SSD 840 Series"				190  C  "Samsung SSD 840 Series"
+"SAMSUNG SSD 850 PRO 256G B"				190  C  "Samsung SSD 850 PRO 256GB"
+"SAMSUNG SSD 850 EVO 1TB"				190  C  "Samsung SSD 850 EVO 1TB"
 
 ########################################
 ############# Seagate drives
