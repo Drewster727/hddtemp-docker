@@ -3,7 +3,7 @@
 docker container for hddtemp:
 http://savannah.nongnu.org/projects/hddtemp
 
-NOTE: This repository will install hddtemp in the docker container from apt repositories. I do not maintain the hddtemp project.
+NOTE: This repository will install hddtemp (NVMe and default temperature compatible) in the docker container from apt repositories. I do not maintain the hddtemp project.
 
 Example:
 ```
