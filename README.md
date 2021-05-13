@@ -10,7 +10,7 @@ Example:
 docker run -d \
 --privileged=true \
 --name="hddtemp-docker" \
--e HDDTEMP_ARGS="-q -d -F /dev/sd*" \
+-e HDDTEMP_ARGS="-q -d -F /dev/sd*[!0-9]" \
 -e TZ="America/Chicago" \
 drewster727/hddtemp-docker
 ```
